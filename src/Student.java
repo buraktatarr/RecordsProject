@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+public record Student(String ad, String soyad, int ogrenciNo) {
 
-public class Student {
+    // record otomatik olarak getter, toString, equals, hashCode tümünü üretir.
 }
